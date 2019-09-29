@@ -1,0 +1,96 @@
+
+html{
+    position: relative;
+    min-height: 100%;    
+}
+
+.navibar{
+    background-color: darkturquoise;
+    color: white;
+    font-weight: bold;
+    font-size: 20;
+}
+
+body{
+    background-color: lightgray;
+}
+
+
+/* .summary-box{
+    background: white;
+    margin-top: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    /* align-content: center;
+    position: relative; */
+    /* width:128px; */
+   /* }  */
+
+#img-1{
+    width:300px;
+    float: left;
+}
+
+p{
+    margin: 5px;
+}
+
+/* .visualization-box{
+    background: white;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px; */
+    /* align-content: center; */
+    /* position: relative; */
+/* } */
+
+
+.home{
+    width:150px;
+    height:150px;
+}
+
+h1{
+    color: darkturquoise;
+ }
+
+h2{
+    color: darkturquoise;
+}
+
+.footer {
+    position: absolute; 
+    margin: 0;
+    margin-top: 30px;
+    bottom: 0;
+    width: 100%; 
+    height: 60px;
+    background-color: rgb(70, 69, 69);
+    color: white;
+    text-align: center ; 
+  }
+
+
+
+
+
+
+
+
+/* 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(70, 69, 69);
+    color: white;
+    text-align: center ;
+  } */

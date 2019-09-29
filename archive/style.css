@@ -1,0 +1,160 @@
+
+/* html{
+    position: relative;
+    min-height: 100%;    
+} */
+
+.body{
+    background-color: lightgray;
+}  
+
+.navbar{
+   height: 60px;
+ }
+
+.navbar-brand{
+    background-color: rgb(19, 181, 184);
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white   !important;
+    margin-left: 35px;
+  }
+
+.nav-link{
+    color: darkslategray   !important;
+}
+
+.dropdown-menu{
+    left: 100     !important;
+}
+
+.container-fluid{
+    padding-bottom: 132px;
+    background-color: lightgrey;
+}
+
+.jumbotron {
+    background-color: lightgray;
+}
+
+hr{
+    border: 1;
+}
+
+.summary {
+    background:white;
+    padding: 20px;
+    /* margin-top: 40px; */
+    /* margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+     /* align-content: center;
+    position: relative; */
+    /* width:128px; */
+}
+
+#img-1{
+    width:200px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+p{
+    margin: 5px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.visualizations {
+    background: white;
+    padding: 20px; 
+    /* padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;  
+    position: relative; */
+}
+
+.box-visuals {
+   align-content: center;
+   position: relative
+   } 
+
+#visual-1 {
+    top: 20%;
+    left: 4%;
+    height: 32%;
+    width: 40%;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 3px solid rgb(19, 181, 184);
+    /* position: absolute */
+    } 
+
+#visual-2 {
+    top: 20%;
+    left: 50%;
+    height: 170px;
+    width: 160px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 3px solid rgb(19, 181, 184);
+    /* position: absolute; */
+} 
+
+#visual-3 {
+    top: 60%;
+    left: 4%;
+    height: 170px;
+    width: 160px;
+    margin-right: 20px;
+    margin-left: 20px;
+    /* position: absolute; */
+    border: 3px solid rgb(19, 181, 184);
+    ;
+} 
+
+#visual-4 {
+    top: 60%;
+    left: 50%;
+    height: 170px;
+    width: 160px;
+    margin-right: 20px;
+    margin-left: 20px;
+    /* position: absolute; */
+    border: 3px solid rgb(19, 181, 184);
+}
+
+h1{
+    color:rgb(19, 181, 184);
+ }
+
+h2{
+    color:rgb(19, 181, 184);
+}
+
+/* h3 {
+    font-size: .75rem;
+} */
+
+.landing-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(70, 69, 69);
+    color: white;
+    text-align: center;
+    border-top-width: 15px;
+    border-top-style: solid;
+    border-top-color: rgb(19, 181, 184);
+
+.landing-footer p {
+    font-size: 20px;
+}

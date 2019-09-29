@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Web Visualization DashBoard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navibar" href="landing.html">Lattitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                      <a class="dropdown-item" href="humidity.html">Humidity</a>
+                      <a class="dropdown-item" href="cloud.html">Cloudiness</a>
+                      <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                    </div>
+                </li>  
+                <li class="nav-item">
+                    <a class="nav-link" href="comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>                           
+            </ul>                  
+        </div>
+    </nav> 
+<!-- Creates the Overall Grid -->
+    <div class="container">
+
+        <!-- Left Box -->
+        <div class="row">
+            <div class="col-md-8">
+                <!-- <div class="summary-box"> -->
+                    <div class="summary-title">
+                        <h1>Summary: Latitude vs. X</h1>  
+                        <hr>
+                    </div>
+                    <div class="summary-details">
+                        <img id="img-1" src="Resources\assets\images\Fig1.png" alt="Lat v Max temp" />   <!--style="width:130px;height:130px;-->
+                        <p> The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+                        <br>
+                        <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity.  This site provides the source data and visualizations created data as part of the analysis, as well as explanation and descriptions of any trends and correlations witnessed.</p>
+                    </div>                             
+                <!-- </div> -->
+            </div>
+       
+        <!-- Left Box -->
+            <div class="col-md-4">
+                <!-- <div class="visualization-box"> -->
+                    <div class="visualization-title">
+                        <h2>Visualizations</h2>                      
+                        <hr>
+                    </div>
+                    <div class="visualization-details">
+                        <a href="max_temp.html"><img class="home" src="Resources\assets\images\Fig1.png" alt="Lat v Max temp" ></a>
+                        <a href="humidity.html"><img class="home" src="Resources\assets\images\Fig2.png" alt="Lat v Humidity" ></a>
+                        <a href="cloud.html"><img class="home" src="Resources\assets\images\Fig3.png" alt="Lat v Cloudiness" ></a>
+                        <a href="wind.html"><img class="home" src="Resources\assets\images\Fig4.png" alt="Lat v Wind Speed" ></a>
+                    </div>
+            </div> 
+        </div>
+        
+        
+
+            <!--Footer-->
+        <div class= "row">
+            <div class= "col-md-10 footer">
+                
+                <p>  &copy; Copyright Coding Bootcamp 2017</p>
+            </div>
+        </div>
+    
+    </div>
+
+<!-- 
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Plots
+                  </a>
+            <ul class="drop-down menu"
+                <li class="dropdown">
+                    <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-item" href="humidity.html">Humidity</a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-item" href="cloud.html">Cloudiness</a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                </li> -->
+        <!-- </nav> -->
+    <!-- </div>    -->
+</body>
+
+
+
+
+
+
+
+
+</html>

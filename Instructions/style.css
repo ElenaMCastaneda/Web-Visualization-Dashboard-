@@ -1,0 +1,153 @@
+.body{
+    background: lightgrey;
+   }  
+
+.jumbotron{
+    background-color: lightgray;
+    padding: 2rem 2rem;
+}  
+
+.navbar{
+   height: 50px;
+   padding: 0px;
+ }
+.navbar-brand{
+    background-color: rgb(19, 181, 184);
+    font-size: 1.0rem;
+    font-weight: bold;
+    margin-left: 140px;
+    padding: 15px 30px;
+    color: white   !important;
+}
+.nav-link{
+    color: darkslategray   !important;
+    font-size: .75rem;
+}
+.dropdown-menu{
+    left: 100     !important;
+    font-size: .75rem;
+}
+hr{
+    border: 1;
+    width: 100%;
+}
+img{
+    width: 90%;
+    height: auto;
+}
+img:hover{
+    border: 3px solid rgb(19, 181, 184);    
+}
+#img-1{
+    width:200px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    }
+.summary {
+    background:white;
+    padding: 20px;
+}
+
+.che{
+    display: inline-block;
+    background-color: white;
+}
+.che2{
+    display: inline-block;
+    background-color: white;
+    margin-inline-start: auto;  
+    height: 20rem;
+}
+
+p{
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    padding: 15px;
+}
+
+
+h1{
+    color:rgb(19, 181, 184);
+    font-family: "Georgia", serif;
+    font-weight: bold;
+    font-size:1.5rem;
+ }
+
+h2{
+    font-size: 1.25em;
+    padding: 20px 0 0px 0;
+    color:rgb(19, 181, 184);
+    font-family: "Georgia", serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.25em;
+    padding: 20px 0 0px 0;
+    color:rgb(19, 181, 184);
+    font-family: "Georgia", serif;
+    font-weight: bold;
+} 
+
+
+h5 {
+    font-size: 1.0em;
+    color: black;
+    font-family: "Georgia", serif;
+    font-weight: bold;
+} 
+.landing-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(70, 69, 69);
+    color: white;
+    text-align: center;
+    border-top-width: 15px;
+    border-top-style: solid;
+    border-top-color: rgb(19, 181, 184);
+}
+.vsummary{
+    left: 30px;
+    bottom: 30px;
+}
+.landing-footer p {
+    font-size: 12px;
+}
+.table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: white;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+.td {
+    color: black;
+}
+
+
+.btn-group-lg {
+       font-size: 2.25rem;
+}
+
+@media(max-width: 760px){
+    .table {
+        display: block;
+}
+.jumbotron{
+    margin-top: 204px;
+ }
+
+ .navbar-collapse{
+    background-color: white   !important;
+    left:10px;
+}
+
+#navbarDropdown{
+    background-color: lightgray;
+}
